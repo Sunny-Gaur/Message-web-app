@@ -15,7 +15,6 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/public/index.html');
 });
 
-
 app.get('/style.css', (req, res) => {
   res.sendFile(__dirname + '/public/style.css');
 });
