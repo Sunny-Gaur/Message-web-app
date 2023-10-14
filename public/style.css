@@ -1,0 +1,153 @@
+body {
+    background: #635c5c;
+
+}
+
+.logo {
+    width: 10vw;
+    /* border: 2px solid white; */
+    border-radius: 50%;
+    background-color: #635c5c;
+    position: absolute;
+    z-index: 1;
+    left: 45%;
+    top: 0px;
+}
+
+.ochat {
+    background-color: white;
+    border-radius: 60%;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 800;
+    color: black;
+    text-transform: capitalize;
+}
+
+.contianer {
+    max-width: 955px;
+    border: 10px solid black;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    height: 54vh;
+    padding: 23px;
+    background-image: url("https://i.pinimg.com/736x/d2/bf/d3/d2bfd3ea45910c01255ae022181148c4.jpg");
+    background-position: center;
+    object-fit: cover;
+    border-radius: 13px;
+    overflow-y: auto;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #a19090;
+    width: fit-content;
+    border: 2px solid black;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 7px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.times {
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(73, 73, 157);
+    font-size: 11px;
+    position: absolute;
+    font-weight: 900;
+    right: 4px;
+    bottom: 0;
+}
+
+.magic {
+    background-color: red;
+    height: 200px;
+}
+
+.left {
+    float: left;
+    clear: both;
+    /* border-top-right-radius: 30px; */
+
+}
+
+.left-time {
+    float: right;
+    padding: 2px;
+    color: white;
+    border-radius: 60%;
+}
+
+.right {
+    float: right;
+    clear: both;
+    /* border-top-left-radius: 30px; */
+}
+
+::-webkit-scrollbar {
+    background-color: red;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #a19090;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #232e4f;
+    border-radius: 10px;
+}
+
+#send-contianer {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    max-width: 985px;
+    width: 100%;
+}
+
+#messageinp {
+    width: 94%;
+    padding: 2.7px;
+    border: none;
+    font-size: 12px;
+    border-radius: 3px solid rgb(21, 92, 92);
+    height: 33px;
+    margin-top: 2px;
+    background-image: url("https://i.pinimg.com/736x/d2/bf/d3/d2bfd3ea45910c01255ae022181148c4.jpg");
+    background-position: center;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.btn {
+    border: none;
+    background: transparent;
+    color: #ffff;
+    padding: 10px;
+    margin-left: -78px;
+    border-left-color: #ffff;
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .logo {
+        top: 10vw;
+        width: 20vw;
+    }
+
+}
